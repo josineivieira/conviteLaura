@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Convite da Laura - 6 anos</title>
+    <meta name="description" content="Convite digital do aniversário de 6 anos da Laura.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="stitch-pattern" aria-hidden="true"></div>
+    <div class="sparkle-layer" aria-hidden="true"></div>
+    <div class="confetti-layer" aria-hidden="true"></div>
+
+    <header class="hero" id="inicio">
+      <nav class="topbar" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Convite Laura">
+          <span class="brand-mark">L</span>
+          <span>Laura 6</span>
+        </a>
+        <div class="nav-actions">
+          <a href="#local">Local</a>
+          <a href="#confirmar">Confirmar</a>
+        </div>
+      </nav>
+
+      <div class="floating-scene" aria-hidden="true">
+        <span class="balloon balloon-one"></span>
+        <span class="balloon balloon-two"></span>
+        <img class="stitch-art stitch-art-one" src="assets/stitch-handstand.png" alt="">
+        <img class="stitch-art stitch-art-two" src="assets/stitch-guitar-stand.png" alt="">
+        <img class="stitch-art stitch-art-three" src="assets/stitch-cute.png" alt="">
+        <span class="leaf leaf-one"></span>
+        <span class="leaf leaf-two"></span>
+        <span class="flower flower-one"></span>
+        <span class="flower flower-two"></span>
+        <span class="butterfly butterfly-one"></span>
+        <span class="butterfly butterfly-two"></span>
+      </div>
+
+      <section class="hero-grid">
+        <div class="photo-stage">
+          <div class="photo-frame">
+            <img src="assets/laura-stitch-theme.png" alt="Laura em cenário tropical do tema Stitch" class="birthday-photo" onerror="this.classList.add('is-missing'); this.alt='Adicione a foto em assets/laura-stitch-theme.png';">
+            <div class="photo-placeholder">
+              <span>Foto da Laura</span>
+              <small>coloque em assets/laura-stitch-theme.png</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-copy glass-panel">
+          <p class="eyebrow">Convite especial</p>
+          <h1>Eu quero você na minha festa!</h1>
+          <p class="subtitle">A alegria vai ser completa com você! 💙<br>Venha celebrar os meus 6 anos e viver momentos inesquecíveis ao meu lado.</p>
+          <div class="date-chip">05 de Julho de 2026 • A partir das 09:00</div>
+          <div class="hero-buttons">
+            <a class="primary-button" href="#confirmar">🎉 Vou comemorar com a Laura</a>
+            <button class="music-button" type="button" id="musicToggle">🎵 Tocar Parabéns</button>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="countdown-section" aria-labelledby="countdown-title">
+        <img class="section-stitch section-stitch-left" src="assets/stitch-guitar-sit.png" alt="">
+        <div class="section-heading">
+          <p class="eyebrow">Está chegando</p>
+          <h2 id="countdown-title">Contagem regressiva</h2>
+        </div>
+        <div class="countdown" role="timer" aria-live="polite">
+          <div class="time-card"><strong id="days">00</strong><span>Dias</span></div>
+          <div class="time-card"><strong id="hours">00</strong><span>Horas</span></div>
+          <div class="time-card"><strong id="minutes">00</strong><span>Minutos</span></div>
+          <div class="time-card"><strong id="seconds">00</strong><span>Segundos</span></div>
+        </div>
+      </section>
+
+      <section class="details-band" id="local">
+        <img class="section-stitch section-stitch-right" src="assets/stitch-handstand.png" alt="">
+        <div class="location-card glass-panel">
+          <div>
+            <p class="eyebrow">Local da festa</p>
+            <h2>Localização da festa</h2>
+            <p>Rua Francisco Arruda, 330 - Conjunto Tiradentes</p>
+          </div>
+          <a class="secondary-button" target="_blank" rel="noopener" href="https://www.google.com/maps/place/3%C2%B004'27.7%22S+59%C2%B058'46.7%22W/@-3.0743494,-59.9822235,1135m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d-3.0743494!4d-59.9796486?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D">📍 Como chegar</a>
+        </div>
+      </section>
+
+      <section class="magic-card-section" aria-label="Detalhes especiais">
+        <div class="magic-card glass-panel">
+          <span class="magic-icon">🌺</span>
+          <div>
+            <p class="eyebrow">Detalhes especiais</p>
+            <h2>Estou preparando uma manhã muito divertida!</h2>
+            <p>Vai ter alegria, carinho, brincadeiras e muita magia para a gente comemorar juntinhos.</p>
+          </div>
+          <a class="calendar-button" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Anivers%C3%A1rio%20da%20Laura%20-%206%20anos&dates=20260705T130000Z/20260705T170000Z&details=Venha%20comemorar%20os%206%20anos%20da%20Laura!&location=Rua%20Francisco%20Arruda%20330%20-%20Conjunto%20Tiradentes" target="_blank" rel="noopener">📅 Salvar data</a>
+        </div>
+      </section>
+
+      <section class="confirm-section" id="confirmar" aria-labelledby="confirm-title">
+        <div class="section-heading">
+          <p class="eyebrow">Me avisa se você vem</p>
+          <h2 id="confirm-title">Vou ficar muito feliz com você lá!</h2>
+        </div>
+        <a class="whatsapp-button" target="_blank" rel="noopener" href="https://wa.me/5592999999999?text=Ol%C3%A1%21%20Confirmo%20presen%C3%A7a%20no%20anivers%C3%A1rio%20da%20Laura.">💬 Confirmar pelo WhatsApp</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Eu te espero para viver esse dia mágico comigo! 💙✨</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "convite-laura-stitch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convite digital responsivo da Laura com tema Stitch.",
+  "scripts": {
+    "start": "node local-server.js",
+    "check": "node --check script.js && node --check local-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
