@@ -13,8 +13,7 @@ Arquivos principais:
 
 ## Trocas rápidas
 
-- Foto temática principal: `assets/laura-stitch-theme.png`.
-- Foto original recebida: `assets/melissa-original.jpeg`.
+- Foto temática principal otimizada: `assets/laura-stitch-theme-web.jpg`.
 - Galeria: adicione `assets/foto-1.jpg`, `assets/foto-2.jpg` e `assets/foto-3.jpg`.
 - Música: o botão já toca uma melodia de aniversário no navegador. Se quiser trocar por arquivo depois, dá para adaptar para `assets/musica.mp3`.
 - WhatsApp: em `index.html`, procure `5592999999999` e troque pelo número desejado.

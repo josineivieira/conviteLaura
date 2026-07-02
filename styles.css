@@ -452,7 +452,6 @@ h2 {
   filter: drop-shadow(0 14px 24px rgba(8, 89, 165, 0.24));
 }
 
-.stitch-art,
 .section-stitch {
   position: absolute;
   width: clamp(96px, 11vw, 180px);
@@ -461,29 +460,6 @@ h2 {
   border-radius: 0;
   filter: drop-shadow(0 16px 22px rgba(7, 81, 183, 0.25));
   animation: floaty 5s ease-in-out infinite;
-}
-
-.stitch-art-one {
-  left: clamp(10px, 3vw, 44px);
-  top: 62vh;
-  width: clamp(130px, 14vw, 210px);
-  transform: rotate(-12deg);
-}
-
-.stitch-art-two {
-  right: clamp(8px, 4vw, 58px);
-  top: 18vh;
-  width: clamp(120px, 13vw, 205px);
-  transform: rotate(7deg);
-  animation-delay: -1.5s;
-}
-
-.stitch-art-three {
-  left: 50%;
-  bottom: 22px;
-  width: clamp(88px, 9vw, 145px);
-  transform: rotate(-6deg);
-  animation-delay: -3s;
 }
 
 .section-stitch-left {
@@ -1245,25 +1221,8 @@ main {
     opacity: 0.55;
   }
 
-  .stitch-art,
   .section-stitch {
     opacity: 0.72;
-  }
-
-  .stitch-art-one {
-    left: -28px;
-    top: 64vh;
-    width: 96px;
-  }
-
-  .stitch-art-two {
-    right: -22px;
-    top: 18vh;
-    width: 92px;
-  }
-
-  .stitch-art-three {
-    display: none;
   }
 }
 
