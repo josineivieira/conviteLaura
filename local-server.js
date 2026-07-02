@@ -12,6 +12,7 @@ const types = {
   ".png": "image/png",
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
   ".mp3": "audio/mpeg"
 };
 
@@ -33,8 +34,11 @@ http.createServer((request, response) => {
       return;
     }
 
+    const ext = path.extname(filePath).toLowerCase();
+    const isAsset = cleanPath.startsWith("/assets/");
     response.writeHead(200, {
-      "Content-Type": types[path.extname(filePath).toLowerCase()] || "application/octet-stream"
+      "Content-Type": types[ext] || "application/octet-stream",
+      "Cache-Control": isAsset ? "public, max-age=31536000, immutable" : "public, max-age=300"
     });
     response.end(data);
   });
