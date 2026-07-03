@@ -29,8 +29,10 @@ function updateCountdown() {
 function buildConfetti() {
   const layer = document.querySelector(".confetti-layer");
   const colors = ["#38bdf8", "#c9a5ff", "#ffb6d5", "#fff0a8", "#ffffff"];
+  const isSmallScreen = window.matchMedia("(max-width: 560px)").matches;
+  const amount = isSmallScreen ? 12 : 24;
 
-  for (let index = 0; index < 44; index += 1) {
+  for (let index = 0; index < amount; index += 1) {
     const piece = document.createElement("span");
     piece.style.left = `${Math.random() * 100}%`;
     piece.style.animationDelay = `${Math.random() * 9}s`;

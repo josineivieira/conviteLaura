@@ -25,7 +25,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  font-family: "Nunito", system-ui, sans-serif;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   background:
     radial-gradient(circle at 17% 20%, rgba(255, 241, 168, 0.92) 0 6%, transparent 17%),
     radial-gradient(circle at 88% 8%, rgba(255, 119, 182, 0.74) 0 10%, transparent 22%),
@@ -131,7 +131,7 @@ main,
 .brand {
   padding: 8px 14px 8px 8px;
   border-radius: 999px;
-  font-family: "Baloo 2", cursive;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   font-weight: 800;
 }
 
@@ -256,7 +256,7 @@ main,
   border-radius: 999px;
   color: var(--white);
   background: linear-gradient(135deg, var(--hot-pink), var(--deep-blue));
-  font: 900 1rem "Baloo 2", cursive;
+  font: 900 1rem "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   box-shadow: 0 12px 26px rgba(7, 81, 183, 0.24);
 }
 
@@ -296,14 +296,14 @@ main,
   background:
     linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)),
     repeating-linear-gradient(135deg, rgba(28, 167, 236, 0.2) 0 16px, rgba(255, 184, 216, 0.2) 16px 32px);
-  font-family: "Baloo 2", cursive;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   font-size: clamp(1.5rem, 5vw, 2.7rem);
   font-weight: 800;
 }
 
 .photo-placeholder small {
   display: block;
-  font-family: "Nunito", sans-serif;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   font-size: 0.92rem;
   font-weight: 900;
 }
@@ -373,7 +373,7 @@ main,
 h1,
 h2 {
   margin: 0;
-  font-family: "Baloo 2", cursive;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   line-height: 0.95;
   letter-spacing: 0;
 }
@@ -422,7 +422,7 @@ h2 {
   border-radius: 999px;
   color: var(--white);
   cursor: pointer;
-  font: 900 1rem "Nunito", sans-serif;
+  font: 900 1rem "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   box-shadow: 0 16px 36px rgba(8, 118, 201, 0.24);
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
@@ -750,7 +750,7 @@ main {
 }
 
 .time-card strong {
-  font-family: "Baloo 2", cursive;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   font-size: clamp(2.5rem, 7vw, 4.9rem);
   line-height: 0.9;
   color: var(--deep-blue);
@@ -848,7 +848,7 @@ main {
 
 .footer p {
   margin: 0;
-  font-family: "Baloo 2", cursive;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   font-size: clamp(1.45rem, 4vw, 2.6rem);
   font-weight: 800;
   color: var(--white);
@@ -955,7 +955,7 @@ main {
 
 .card-copy .special {
   margin: 22px 0;
-  font: 900 42px "Nunito", sans-serif;
+  font: 900 42px "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
 }
 
 .card-info {
@@ -974,7 +974,7 @@ main {
 }
 
 .card-copy strong {
-  font: 800 54px "Baloo 2", cursive;
+  font: 800 54px "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   color: var(--deep-blue);
 }
 
@@ -1219,6 +1219,16 @@ main {
 
   .floating-scene {
     opacity: 0.55;
+  }
+
+  .stitch-pattern {
+    display: none;
+  }
+
+  .flower-two,
+  .butterfly-two,
+  .balloon-two {
+    display: none;
   }
 
   .section-stitch {
