@@ -1232,7 +1232,17 @@ main {
   }
 
   .section-stitch {
-    opacity: 0.72;
+    display: none;
+  }
+
+  .countdown-section {
+    padding-top: 58px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(2rem, 11vw, 3.2rem);
+    line-height: 1.05;
+    padding: 0 10px;
   }
 }
 
